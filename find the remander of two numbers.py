@@ -1,5 +1,5 @@
-def remainder(devisor, dividend):
-    return devisor % dividend
+def remainder(divisor, dividend):
+    return divisor % dividend
 
 
 e = remainder(1, 3)
