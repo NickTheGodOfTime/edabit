@@ -1,5 +1,5 @@
 def perimeter(height, width):
-    return (height + height) + (width + width)
+    return 2 * (height + width)
 
 
 e = perimeter(6, 7)
