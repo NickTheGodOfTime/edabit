@@ -3,7 +3,7 @@ def sum_list(list):
     sumList = 1
     
     while index < len(list):
-        sumList = sumList * list[index]
+        sumList = sumList + list[index]
         index = index + 1
     
     return sumList
