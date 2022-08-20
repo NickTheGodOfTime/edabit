@@ -7,7 +7,9 @@ def second_max(list):
         if max > list[index]:
             secondMax = max
             max = list[index]
-        elif 
+            
+        elif secondMax < list[index]:
+            secondMax = list[index]
         
         index = index + 1
         
