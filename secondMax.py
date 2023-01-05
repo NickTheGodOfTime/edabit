@@ -1,20 +1,20 @@
 def second_max(list):
     index = 1
-    max = list[0]
-    secondMax = -1
+    maxn = list[0]
+    lastMax = -1
     
     while index < len(list):
-        if max > list[index]:
-            secondMax = max
-            max = list[index]
+        if maxn > list[index]:
+            lastMax = max
+            maxn = list[index]
             
-        elif secondMax < list[index]:
-            secondMax = list[index]
+        elif lastMax < list[index]:
+            lastMax = list[index]
         
         index = index + 1
         
     
-    return secondMax
+    return lastMax
 
 
 max = second_max([5, 6, 99, 10, 3, 67, 45, 112])
